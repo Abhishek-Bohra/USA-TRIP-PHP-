@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body><img src="bg4.jpeg" alt="JIET JODHPUR" class="bg">
+    <div class="container">
+        <h1>Welcome to JIET US Trip </h1   >
+        <p>Enter your details and submit this form  to confirm your participation in the  trip</p>
+        <p class="submitMsg">Thank for submitting your form. We are very happy to see  you  joining  us for  the US trip</p>
+        <form action="index.php" method="post">
+            <input type="text" class="name" id="name" placeholder="Enter your name ">
+            <input type="text" class="age" id="age" placeholder="Enter your Age ">
+            <input type="text" class="gender" id="gender" placeholder="Enter your gender ">
+            <input type="email" class="email" id="email" placeholder="Enter your E-mail  ">
+            <input type="phone" class="phone" id="phone" placeholder="Enter your phone ">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here "></textarea>
+            <button class="btn">Submit</button>
+        </form>
+
+
+
+    </div>
+     
+    <!-- INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `date`) VALUES ('2', 'test name', '15', 'male', 'this_is_@14@gmail.com', ' 1234567898', 'this is my first php my admin message', current_timestamp());-->
+</body>
+</html>
